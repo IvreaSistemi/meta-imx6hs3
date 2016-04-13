@@ -1,0 +1,25 @@
+From d8871c457ef665f1047dbaf16905769fbb300f46 Mon Sep 17 00:00:00 2001
+From: De Lucia Fabio <delucia@ivreasistemi.it>
+Date: Wed, 13 Apr 2016 12:37:54 +0200
+Subject: [PATCH] Initial change: Board name change
+
+---
+ board/freescale/mx6sabresd/mx6sabresd.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/board/freescale/mx6sabresd/mx6sabresd.c b/board/freescale/mx6sabresd/mx6sabresd.c
+index 6ef5131..137d2ae 100644
+--- a/board/freescale/mx6sabresd/mx6sabresd.c
++++ b/board/freescale/mx6sabresd/mx6sabresd.c
+@@ -1187,7 +1187,7 @@ int board_late_init(void)
+ 
+ int checkboard(void)
+ {
+-	puts("Board: MX6-SabreSD\n");
++	puts("Board: MX6-SabreSD-HS3\n");
+ 	return 0;
+ }
+ 
+-- 
+1.9.1
+
